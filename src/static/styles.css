@@ -80,6 +80,11 @@ section h3 {
   margin-top: 10px;
   color: #555;
 }
+.activity-card li {
+  padding-left: 20px;
+  margin-top: 10px;
+  color: #555;
+}
 
 .form-group {
   margin-bottom: 15px;
