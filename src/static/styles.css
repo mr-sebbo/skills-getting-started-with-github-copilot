@@ -88,8 +88,8 @@ section h3 {
 }
 
 .activity-card .signed-up-participants {
-  list-style-type: circle;
-  padding-left: 20px;
+  list-style-type: none;
+  padding-left: 0;
   margin-top: 10px;
   color: #333;
 }
@@ -97,6 +97,21 @@ section h3 {
 .activity-card .signed-up-participants li {
   margin-top: 5px;
   color: #0066cc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.delete-participant {
+  cursor: pointer;
+  color: #c62828;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.delete-participant:hover {
+  background-color: #ffebee;
 }
 
 .form-group {
